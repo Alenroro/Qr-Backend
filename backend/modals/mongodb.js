@@ -4,8 +4,8 @@ const mongodb = require("mongodb");
 const { MongoClient } = mongodb;
 
 const url =
-  "mongodb+srv://Articnine:u4DhYKcw8qhHK4cG@cluster0.p5tqd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-const dbName = "test";
+  "mongodb+srv://alenroro321:Alenroro05@projects.zc73cuh.mongodb.net/?retryWrites=true&w=majority&appName=projects";
+const dbName = "qr-app";
 
 let client;
 
