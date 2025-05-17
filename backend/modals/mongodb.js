@@ -2,7 +2,9 @@
 
 const mongodb = require("mongodb");
 const { MongoClient } = mongodb;
+
 const url =process.env.MONGODB_URl
+  "mongodb+srv://alenroro321:Alenroro05@projects.zc73cuh.mongodb.net/?retryWrites=true&w=majority&appName=projects";
 const dbName = "qr-app";
 
 let client;
