@@ -4,7 +4,7 @@ const mongodb = require("mongodb");
 require('dotenv').config();
 const { MongoClient } = mongodb;
 
-const url =process.env.MONGODB_URl
+const url =process.env.MONGODB_URL
 const dbName = "qr-app";
 
 let client;
